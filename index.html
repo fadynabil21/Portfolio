@@ -1,107 +1,257 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>leon Template oun</title>
     <!--main Template css file> -->
-    <link rel="stylesheet" href="css/leon.css"/>
+    <link rel="stylesheet" href="css/leon.css" />
     <!--main normalize css file> -->
-    <link rel="stylesheet" href="css/normalize.css"/>
+    <link rel="stylesheet" href="css/normalize.css" />
     <!--main fonts css file> -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
-    rel="stylesheet">
+        rel="stylesheet">
     <!--main icons css file> -->
- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
-  integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
-   crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 
 </head>
+
 <body>
     <!-- stare Header -->
-    <div class="header">
+    <section class="header" id="header">
         <div class="container">
-            <img class="logo" src="/images/logo.png" alt="">
+            <img class="logo" src="/images/download.jfif" alt="">
             <div class="links">
                 <span class="icons">
                     <span></span>
                     <span></span>
                     <span></span>
                     <ul>
-                        
+
                         <li> <a href="#social_links">Social links</a></li>
                         <li> <a href="#Services">Services</a></li>
-                        <li> <a href="#Portfolio">Portfolio</a></li>
+                        <li> <a href="#portfolio">Portfolio</a></li>
                         <li> <a href="#About">About</a></li>
-                        <li> <a href="#Contact">Contact</a></li>
                     </ul>
                 </span>
             </div>
         </div>
-    </div>
+    </section>
     <!-- End Header -->
+
+
+
     <!-- Start Landing Section -->
-    <div class="landing">
-        <div class="intro-text" >
-            <h1>Eng.Fady Nabil</h1>
-            <p>Full Stack Web Developer <br> This Is My Portfolio</p>
+    <section class="landing" id="landing">
+        <div class="overlay"></div>
+
+        <div class="intro-text">
+            <h1>Eng. Fady Nabil</h1>
+
+            <p>
+                First-Year Computer Science student at Sohag University and a passionate
+                Front-End Web Developer. I specialize in creating responsive and
+                interactive websites using HTML, CSS, and JavaScript.
+            </p>
+
+            <a href="#cv" class="btn">View My Work</a>
         </div>
-    </div>
-     <!-- end Landing Section -->
-       <!-- Start Features -->
-        <div class="Features" >
-            <div class="container">
-                <div class="text-Services" id="social_links">
-               <h1 class="text-1">Social links</h1>
-               <p class="text-2"> Feel Free to Contact Me</p>
-             </div>
-                
-                <div class="box-parent">
+    </section>
+    <!-- end Landing Section -->
 
 
-                        <div class="feat-1 feat">
-                            <a href="https://www.facebook.com/" target="_blank">
-                                <i class="fa-brands fa-facebook" ></i> 
-                                 <h3 class="text">Facebook</h3>  
-                                 <p></p>
-                            </a>
-                         </div>
-                    
-    
-    
-                    <div class="feat-2 feat">
-                        <a href="https://wa.me/201226788373" target="_blank">
-    
-                            <i class="fa-brands fa-whatsapp"></i>
-                            <h3 class="text">WhatsApp</h3>  
-                        </a>                 
-                        <p></p>
-                     </div>
-    
-                    <div class="feat-3 feat">  
-                        <a href="https://www.linkedin.com/in/fady-nabil-shokry?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
-    
-                            <i class="fa-brands fa-linkedin"></i>
-                            <h3 class="text">LinkedIn</h3>  
-                        </a>                 
-                        <p></p>
-                     </div>
-                
-                </div>
-                </div>
+
+    <!-- Start social_links -->
+    <section class="social_links" id="social_links">
+        <div class="title">
+            <h1 class="text-1">Social links</h1>
+            <p class="text-2"> Feel Free to Contact Me</p>
         </div>
-        <!-- end Features -->
+        <div class="container">
+            <div class="box-parent">
 
-        <div class="text-Services" id="Services">
-           <h1 class="text-1">Services</h1>
-           <p class="text-2">  Don't be busy, be productive</p>
-         </div>
-        
-      
-    
+                <div class="feat-1 feat">
+                    <a href="https://www.facebook.com/" target="_blank">
+                        <i class="fa-brands fa-facebook"></i>
+                        <h3 class="text">Facebook</h3>
+                        <p></p>
+                    </a>
+                </div>
+
+                <div class="feat-2 feat">
+                    <a href="https://wa.me/201226788373" target="_blank">
+
+                        <i class="fa-brands fa-whatsapp"></i>
+                        <h3 class="text">WhatsApp</h3>
+                    </a>
+                    <p></p>
+                </div>
+
+                <div class="feat-3 feat">
+                    <a href="https://www.linkedin.com/in/fady-nabil-shokry?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                        target="_blank">
+
+                        <i class="fa-brands fa-linkedin"></i>
+                        <h3 class="text">LinkedIn</h3>
+                    </a>
+                    <p></p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- end social_links -->
+
+
+    <!-- Start text-Services -->
+    <section class="text-Services" id="Services">
+        <div class="title">
+            <h1 class="text-1">Services</h1>
+            <p class="text-2"> Don't be busy, be productive</p>
+        </div>
+        <div class="container services-parent">
+            <div class="data-section">
+                <div class="item">
+                    <i class="fa-solid fa-code"></i>
+                    <p class="se-para">Modern and interactive website development.</p>
+                </div>
+                <div class="item">
+                    <i class="fa-solid fa-mobile-screen-button"></i>
+                    <p class="se-para">Clean code and engaging user interfaces.</p>
+                </div>
+                <div class="item">
+                    <i class="fa-solid fa-palette"></i>
+                    <p class="se-para">Perfect viewing experience on all devices.</p>
+                </div>
+                <div class="item">
+                    <i class="fa-solid fa-rocket"></i>
+                    <p class="se-para">Fast, efficient, and reliable performance.</p>
+                </div>
+            </div>
+            <div class="image-section">
+                <img class="image" src="/images/disk.jpg">
+
+            </div>
+        </div>
+    </section>
+    <!-- end text-Services -->
+
+    <!-- Start portfolio -->
+    <section class="portfolio" id="portfolio">
+
+        <div class="title">
+            <h1 class="text-1">Portfolio</h1>
+            <p class="text-2">If you do it right, it will last forever</p>
+        </div>
+
+        <div class="container">
+
+            <div class="images-portfolio">
+
+                <div class="item-portfolio">
+                    <img class="fady" src="images/portfolio-1.jpg" alt="">
+
+                    <div class="content">
+                        <h2>Project Here</h2>
+
+                        <p>
+                            My creative ability is very difficult to measure
+                            because it can manifest in so many surprising ways.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="item-portfolio">
+                    <img class="fady" src="images/portfolio-2.jpg" alt="">
+
+                    <div class="content">
+                        <h2>Project Here</h2>
+
+                        <p>
+                            My creative ability is very difficult to measure
+                            because it can manifest in so many surprising ways.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="item-portfolio">
+                    <img class="fady" src="images/portfolio-3.jpg" alt="">
+
+                    <div class="content">
+                        <h2>Project Here</h2>
+
+                        <p>
+                            My creative ability is very difficult to measure
+                            because it can manifest in so many surprising ways.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+    <!-- end portfolio -->
+
+
+    <!-- Start text-About -->
+    <section class="text-About" id="About">
+
+        <div class="title">
+            <h1 class="text-1">About</h1>
+            <p class="text-2">Less is more work</p>
+        </div>
+
+        <div class="container About-parent">
+
+            <!-- image -->
+            <div class="image-section">
+                <img class="image-About" src="/images/Gemini_Generated_Image_8ouxcp8ouxcp8oux.png" alt="">
+            </div>
+
+            <!-- CV Folder -->
+            <div class="cv-section" id="cv">
+
+                <div class="folder">
+
+                    <i class="fa-solid fa-folder folder-icon"></i>
+
+                    <a class="cv-file" href="/images/Fady Nabil.pdf" target="_blank">
+                        <i class="fa-solid fa-file-pdf"></i>
+                        <span>My CV</span>
+                    </a>
+
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    <!-- end text-About -->
+
+    <!-- Start footer -->
+    <section class="footer">
+        <div class="container">
+            <div class="footer-box">
+                <img class="logo" src="/images/download.jfif" alt="">
+                <h2 class="footer-text">Portfolio</h2>
+                <a class="footer-link" href="#social_links">Contact Me</a>
+            </div>
+
+            <p class="copyright">
+                © 2026 Fady Nabil. All Rights Reserved.
+            </p>
+        </div>
+    </section>
+    <!-- end footer -->
 </body>
+
 </html>
