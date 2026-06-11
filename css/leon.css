@@ -888,7 +888,7 @@ body {
 /* Mobile */
 @media (max-width: 768px) {
   .landing {
-    height: 100vh;
+    height: 65vh;
   }
 
   .landing .intro-text {
