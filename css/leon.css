@@ -918,10 +918,6 @@ body {
 
 @media (max-width: 768px) {
 
-  .landing {
-    height: 100vh;
-  }
-
   .landing .intro-text {
     width: 95%;
     left: 50%;
